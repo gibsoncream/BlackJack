@@ -22,7 +22,8 @@ const deckCreate = () => {
         Suit: cardSuits[i],
         Value: cardValues[j],
         Weight: cardWeight
-      }; deck.push(card);
+      }; 
+      deck.push(card);
     }
   } return deck;
 };
