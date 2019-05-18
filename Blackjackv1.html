@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>A simple BlackJack game!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Blackjackv1.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+  </head>
+<body>
+  <h1 id = 'gameText'>A BlackJack game</h1>
+
+<table id = "gametable">
+  <tbody>
+    <tr>
+        <td>
+          <div id = "playerText">Player's Score:</div>
+          <div id = "dealerText">Dealer's Score:</div>
+        </td>
+    </tr>
+    <tr>
+        <td id = "plCards" colspan="14">
+          <div id = "playerDisplayCard1" class = "playerDisplayCards"></div>
+          <div id = "playerDisplayCard2" class = "playerDisplayCards"></div>
+          <div id = "playerDisplayCard3" class = "playerDisplayCards"></div>
+          <div id = "playerDisplayCard4" class = "playerDisplayCards"></div>
+          <div id = "playerDisplayCard5" class = "playerDisplayCards"></div>
+          <div id = "dealerDisplayCard1" class = "dealerDisplayCards"></div>
+          <div id = "dealerDisplayCard2" class = "dealerDisplayCards"></div>
+          <div id = "dealerDisplayCard3" class = "dealerDisplayCards"></div>
+          <div id = "dealerDisplayCard4" class = "dealerDisplayCards"></div>
+          <div id = "dealerDisplayCard5" class = "dealerDisplayCards"></div>
+        </td>
+    </tr>
+  </tbody>
+  </table>
+
+<div class="buttons">
+  <button id = 'hitButton' type="button" class="btn btn-outline-dark btn-lg" disabled>Hit Me!</button></td>
+  <button id = 'standButton' type="button" class="btn btn-outline-dark btn-lg" disabled>Stand</button></td>
+  <button id = 'startButton' type="button" class="btn btn-outline-dark btn-lg">Start Game!</button></td>
+</div>
+
+<script type="text/javascript" src="Blackjackv1.js"></script>
+</body>
+</html>

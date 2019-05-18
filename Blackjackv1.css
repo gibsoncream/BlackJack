@@ -1,0 +1,142 @@
+
+h1 {
+  color: black;
+  padding: 30px;
+  text-align: center;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 5px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#gameText {
+  font-size: 2.8em;
+}
+
+#gametable {
+  border: 5px solid black;
+  width: 1100px;
+  height: 400px;
+  position: relative;
+  background-image: url('Utils/cards1.jpg');
+  background-position: left;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+#playerText {
+  display: inline;
+  background-color: white;
+  width: auto;
+  float: left;
+  text-align: right;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 2em;
+  font-weight: bold;
+  z-index: 1;
+  color: darkred;
+  text-decoration: underline;
+  border-radius: 15px;
+}
+
+#dealerText {
+  display: inline;
+  background-color: white;
+  float: right;
+  width: auto;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-size: 2em;
+  z-index: 1;
+  color: darkred;
+  text-decoration: underline;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+#playerDisplayCard1 {
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding-top: 0;
+  border: 3px solid black;
+  width: 95px;
+  height: 180px;
+  display: block;
+  float: left;
+  background-color: #878f99;
+  font-size: 2em;
+  text-align: center;
+  line-height: 75px;
+  color: black;
+  border-radius: 10px;
+}
+
+
+#playerDisplayCard2, #playerDisplayCard3, #playerDisplayCard4, #playerDisplayCard5 {
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding-top: 0;
+  border: 3px solid black;
+  width: 95px;
+  height: 180px;
+  display: block;
+  float: left;
+  background-color: #878f99;
+  font-size: 2em;
+  text-align: center;
+  line-height: 75px;
+  border-radius: 10px;
+}
+
+#dealerDisplayCard1 {
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding-top: 0;
+  border: 3px solid black;
+  width: 95px;
+  height: 180px;
+  display: block;
+  float: right;
+  background-color: #878f99;
+  font-size: 2em;
+  text-align: center;
+  line-height: 75px;
+  border-radius: 10px;
+}
+
+
+#dealerDisplayCard2, #dealerDisplayCard3, #dealerDisplayCard4, #dealerDisplayCard5 {
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding-top: 0;
+  border: 3px solid black;
+  width: 95px;
+  height: 180px;
+  display: block;
+  float: right;
+  background-color: #878f99;
+  font-size: 2em;
+  text-align: center;
+  line-height: 75px;
+  border-radius: 10px;
+}
+
+.buttons {
+ margin: 10px 10px;
+ justify-content: center;
+ display: flex;
+}
+
+button {
+ margin: 10px 5px;
+}
